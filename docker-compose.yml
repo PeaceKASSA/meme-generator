@@ -1,0 +1,12 @@
+services:
+  meme-app:
+    build: .
+    ports:
+      - "5173:5173"
+    volumes:
+      - .:/app
+      - /app/node_modules   # ← important pour ne pas écraser node_modules
+    command: npm run dev -- --host
+    environment:
+      - NODE_ENV=development
+    restart: unless-stopped
