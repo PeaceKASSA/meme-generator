@@ -57,7 +57,9 @@ L'application sera disponible sur http://localhost:5173
 ## 📸 Comment utiliser
 
 -Clique sur "Créer un mème"
+
 -Télécharge une image depuis ton ordinateur
+
 -Ajoute ton texte en haut et en bas
 -Ajuste la taille et la couleur du texte
 -Clique sur "💾 Sauvegarder" → ton mème est enregistré dans ta galerie
