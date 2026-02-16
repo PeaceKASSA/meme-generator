@@ -22,14 +22,46 @@ Télécharge une image, ajoute du texte, vois le résultat en temps réel, tél�
 - **Base de données** : Firebase Firestore (authentification anonyme)
 - **Containerisation** : Docker + Docker Compose
 
+## 📁 Structure du projet
+
+meme-generator/
+├── src/
+│   └── App.jsx                 # Composant principal
+├── public/
+├── Dockerfile
+├── docker-compose.yml
+├── package.json
+├── tailwind.config.js
+├── .gitignore
+└── README.md
+
 ## 🚀 Installation & Lancement
 
 ### 1. Version classique (recommandée pour le développement)
 
-```bash
 git clone https://github.com/ton-username/meme-generator.git
 cd meme-generator
 
 npm install
 npm run dev
+
 Ouvre ton navigateur → http://localhost:5173
+
+### 2. En utilisant Docker (le plus simple)
+
+docker compose up --build
+
+L'application sera disponible sur http://localhost:5173
+
+
+## 📸 Comment utiliser
+
+-Clique sur "Créer un mème"
+-Télécharge une image depuis ton ordinateur
+-Ajoute ton texte en haut et en bas
+-Ajuste la taille et la couleur du texte
+-Clique sur "💾 Sauvegarder" → ton mème est enregistré dans ta galerie
+-Télécharge-le ou partage-le directement sur les réseaux
+
+
+Auteur : Peace Kassa
