@@ -32,3 +32,4 @@ cd meme-generator
 
 npm install
 npm run dev
+Ouvre ton navigateur → http://localhost:5173
