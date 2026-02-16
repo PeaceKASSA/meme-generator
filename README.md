@@ -25,15 +25,25 @@ Télécharge une image, ajoute du texte, vois le résultat en temps réel, tél�
 ## 📁 Structure du projet
 
 meme-generator/
+
 ├── src/
+
 │   └── App.jsx                 # Composant principal
+
 ├── public/
+
 ├── Dockerfile
+
 ├── docker-compose.yml
+
 ├── package.json
+
 ├── tailwind.config.js
+
 ├── .gitignore
+
 └── README.md
+
 
 ## 🚀 Installation & Lancement
 
