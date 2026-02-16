@@ -38,20 +38,17 @@ meme-generator/
 ## 🚀 Installation & Lancement
 
 ### 1. Version classique (recommandée pour le développement)
-
-git clone https://github.com/ton-username/meme-generator.git
-cd meme-generator
-
+Run the commands:
 npm install
 npm run dev
 
-Ouvre ton navigateur → http://localhost:5173
+Ouvre ton navigateur à l'adresse localhost indiquée
 
 ### 2. En utilisant Docker (le plus simple)
 
 docker compose up --build
 
-L'application sera disponible sur http://localhost:5173
+L'application sera disponible sur l'adresse localhost indiquée
 
 
 ## 📸 Comment utiliser
@@ -61,8 +58,11 @@ L'application sera disponible sur http://localhost:5173
 -Télécharge une image depuis ton ordinateur
 
 -Ajoute ton texte en haut et en bas
+
 -Ajuste la taille et la couleur du texte
+
 -Clique sur "💾 Sauvegarder" → ton mème est enregistré dans ta galerie
+
 -Télécharge-le ou partage-le directement sur les réseaux
 
 
